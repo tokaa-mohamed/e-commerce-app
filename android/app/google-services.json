@@ -1,0 +1,170 @@
+{
+  "project_info": {
+    "project_number": "105434909275",
+    "project_id": "giftapp-6fb4e",
+    "storage_bucket": "giftapp-6fb4e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105434909275:android:bce09cde52cd67fe2ccd7e",
+        "android_client_info": {
+          "package_name": "com.example.callcenterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKwTvTeU-hcLgDplew2lmJkGAG4gyCsoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105434909275-47jfso0rq98s166hs90lcalcjpqknjm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.palistinesupport"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105434909275:android:f818d5a04e221e1a2ccd7e",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105434909275-fisok0avflup17gqm39gkifb0b6n7417.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerce",
+            "certificate_hash": "8d33d0134cf552fef483464fb0f30651e3f942dc"
+          }
+        },
+        {
+          "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKwTvTeU-hcLgDplew2lmJkGAG4gyCsoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105434909275-47jfso0rq98s166hs90lcalcjpqknjm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.palistinesupport"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105434909275:android:05f8e4063ecf854e2ccd7e",
+        "android_client_info": {
+          "package_name": "com.example.giftapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKwTvTeU-hcLgDplew2lmJkGAG4gyCsoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105434909275-47jfso0rq98s166hs90lcalcjpqknjm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.palistinesupport"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105434909275:android:77d6d83154791a2c2ccd7e",
+        "android_client_info": {
+          "package_name": "com.example.palistinesupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105434909275-l3tergdbip0a4bhpav086ddnejtitjvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.palistinesupport",
+            "certificate_hash": "8d33d0134cf552fef483464fb0f30651e3f942dc"
+          }
+        },
+        {
+          "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKwTvTeU-hcLgDplew2lmJkGAG4gyCsoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105434909275-e12kao5pdkivji1824de0son2h0q0c85.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105434909275-47jfso0rq98s166hs90lcalcjpqknjm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.palistinesupport"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
