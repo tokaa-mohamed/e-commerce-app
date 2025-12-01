@@ -1,21 +1,57 @@
-<<<<<<< HEAD
-# ecommerce
+# E-Commerce Project README
 
-A new Flutter project.
+A simple e-commerce project with the following features:
 
-## Getting Started
+## Technologies Used
 
-This project is a starting point for a Flutter application.
+* **Firebase** (Authentication, Firestore)
+* **Provider** (State Management)
+* **Stripe** (Payments)
+* **Fetch API** (Fetch Products)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Sign Up** using Firebase Auth
+* **Sign In** using Firebase Auth
+* **Fetch Products** using Fetch API
+* **Add to Cart** using Provider
+* **Add to Favorites** using Provider
+* **Checkout with Stripe**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# e-commerce-app
-E-commerce App
->>>>>>> c7fbfaaacb39a3b7d7478abe0bf00525c3e11bd1
+## Project Overview
+
+This project is a basic e-commerce application. Users can register, log in, browse products, add items to their shopping cart or favorites list, and proceed to payment through Stripe.
+
+## Setup Instructions
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+2. Add your Firebase configuration and Stripe public key inside your environment file.
+3. Run the project:
+
+   ```bash
+   npm start
+   ```
+
+## Firebase
+
+Used for signup, signin, and storing cart/favorite data.
+
+## Provider
+
+Used to manage global state like cart and favorites.
+
+## Stripe
+
+Used to process payments during checkout.
+
+## Fetch API
+
+Used to load products from your API endpoint.
+
+
+
+This README contains only the information you provided, organized clearly and professionally.
