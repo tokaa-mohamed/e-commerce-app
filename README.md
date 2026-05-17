@@ -1,57 +1,42 @@
-# E-Commerce Project README
+# 🛒 E-Commerce Mobile App
 
-A simple e-commerce project with the following features:
+A cross-platform E-Commerce mobile application built with **Flutter**, featuring global state management, secure payment gateway integration, and Firebase backend integration.
 
-## Technologies Used
+---
 
-* **Firebase** (Authentication, Firestore)
-* **Provider** (State Management)
-* **Stripe** (Payments)
-* **Fetch API** (Fetch Products)
+## 📱 App Screenshots
 
-## Features
+| 🏠 Home & 📄 Details | 🛒 Cart & ❤️ Favorites | 👤 Profile & 🔍 Search |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/7f6cb581-76d5-4c0d-8220-66ff91b51a66" width="230" alt="Home"/> <img src="https://github.com/user-attachments/assets/aaec477a-0b62-413d-8f38-d9bcd5c4d797" width="230" alt="Details"/> | <img src="https://github.com/user-attachments/assets/df2db69a-9b58-40b7-a6ce-e00991bc0b6a" width="230" alt="Cart"/> <img src="https://github.com/user-attachments/assets/f11bdb94-eacb-47ce-abeb-7af730a92b1b" width="230" alt="Favorite"/> | <img src="https://github.com/user-attachments/assets/60758ea9-5064-4347-bee7-3e600ca0357f" width="230" alt="Profile"/> <img src="https://github.com/user-attachments/assets/ef05c21c-eb8f-4dd4-8c17-c31f10e7c0a8" width="230" alt="Search"/> |
 
-* **Sign Up** using Firebase Auth
-* **Sign In** using Firebase Auth
-* **Fetch Products** using Fetch API
-* **Add to Cart** using Provider
-* **Add to Favorites** using Provider
-* **Checkout with Stripe**
+---
 
-## Project Overview
+## ✨ Core Features
 
-This project is a basic e-commerce application. Users can register, log in, browse products, add items to their shopping cart or favorites list, and proceed to payment through Stripe.
+* **Secure Authentication:** User registration and login powered by Firebase Auth.
+* **Dynamic Product Catalog:** Products fetching and data parsing using REST APIs.
+* **State Management:** Reactive global state for Cart and Favorites using Provider.
+* **Seamless Payments:** Full checkout pipeline integrated with Stripe Payment Gateway.
+* **Cloud Sync:** Saving user cart and favorites data with Firebase Firestore.
 
-## Setup Instructions
+---
 
-1. Install dependencies:
+## 🛠️ Tech Stack & Architecture
 
-   ```bash
-   npm install
-   ```
-2. Add your Firebase configuration and Stripe public key inside your environment file.
-3. Run the project:
+This project follows clean code principles and structured folder management to ensure scalability:
 
-   ```bash
-   npm start
-   ```
+* **Frontend:** Flutter & Dart
+* **State Management:** Provider
+* **Backend & Database:** Firebase Auth & Cloud Firestore
+* **Payment Gateway:** Stripe SDK
+* **Networking:** HTTP Client
 
-## Firebase
-
-Used for signup, signin, and storing cart/favorite data.
-
-## Provider
-
-Used to manage global state like cart and favorites.
-
-## Stripe
-
-Used to process payments during checkout.
-
-## Fetch API
-
-Used to load products from your API endpoint.
-
-
-
-This README contains only the information you provided, organized clearly and professionally.
+### 📂 Project Structure Overview
+```text
+lib/
+│
+├── core/          # Network clients, themes, and shared utilities
+├── models/        # Data models (Product, User, CartItem)
+├── providers/     # Global state logic (CartProvider, AuthProvider)
+└── screens/       # UI Views (Home, ProductDetails, Cart, Checkout)
